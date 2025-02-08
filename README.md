@@ -137,7 +137,7 @@ $$
 In this lifted space, the Koopman operator approximates the system dynamics as a linear relation:
 
 $$
-\boldsymbol{\Psi}(\mathbf{x}_{k+1}, \mathbf{u}_{k+1}) \approx \mathbf{K} \boldsymbol{\Psi}(\mathbf{x}_k, \mathbf{u}_k) 
+\boldsymbol{\Psi}(x_{k+1}, u_{k+1}) \approx \mathbf{K} \boldsymbol{\Psi}(x_k, u_k) 
 $$
 
 where $\mathbf{K} \in \mathbb{R}^{p \times p}$ is the Koopman matrix. This matrix is the finite-dimensional approximation of the Koopman operator and can be estimated from data using linear regression techniques.
