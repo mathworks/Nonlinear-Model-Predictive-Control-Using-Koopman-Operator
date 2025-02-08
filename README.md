@@ -8,7 +8,7 @@ This document explains the implementation of the **Koopman Operator** in conjunc
 
 - Get a local copy of the project directly from MATLAB®, by using Simulink® ➡ Project from Git, or
 
-- Open the project in MATLAB Online [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://insidelabs-git.mathworks.com/fnae/a-tutorial-for-control-koopman-operator/-/blob/main/ControlKoopmanOperator.prj?ref_type=heads)
+- Open the project in MATLAB Online [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://github.com/mathworks/Nonlinear-Model-Predictive-Control-Using-Koopman-Operator/blob/main/ControlKoopmanOperator.prj?ref_type=heads)
 
 Start the MATLAB® project by clicking on the file **`ControlKoopmanOperator.prj`**.
 Next, by running the `NonlinearSystemControl_withKoopman_and_nlmpcMultistage.m` script, the results discussed below will be generated.
