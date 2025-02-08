@@ -144,11 +144,7 @@ where $\mathbf{K} \in \mathbb{R}^{p \times p}$ is the Koopman matrix. This matri
 
 ### Merits of Koopman Operator Theory <a name="merits-of-koopman-operator-theory"></a>
 
-1. **Linearity:** The Koopman operator provides a linear representation of nonlinear dynamics, which enables the use of linear systems theory and control techniques: 
-
-$$
-\boldsymbol{\Psi}(\mathbf{x}_{k+1}, \mathbf{u}_{k+1}) \approx \mathbf{K} \boldsymbol{\Psi}(\mathbf{x}_k,\mathbf{u}_k)
-$$
+1. **Linearity:** The Koopman operator provides a linear representation of nonlinear dynamics, which enables the use of linear systems theory and control techniques.
 
 2. **Lookahead Capability:** By iterating the Koopman operator (e.g., $K^N$ for N-step ahead prediction), we can predict the future evolution of the system's observables.
 
