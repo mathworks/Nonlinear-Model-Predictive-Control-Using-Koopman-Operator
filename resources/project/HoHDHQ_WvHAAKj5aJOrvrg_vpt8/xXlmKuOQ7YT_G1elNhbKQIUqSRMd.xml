@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info description="This document explains the implementation of the Koopman Operator in conjunction with Model Predictive Control (MPC) . A nonlinear dynamic system is controlled by leveraging the linearity of the Koopman operator in a higher-dimensional lifted space. This contribution showcases a control algorithm that can be investigated and simulated nicely using MathWorks tools."/>
