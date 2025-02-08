@@ -70,6 +70,37 @@ The Koopman operator theory provides a way to represent a nonlinear dynamical sy
 
 **Concept:**
 
+```pgsql
+             _.-~~-._
+           .'         '.
+          /   Nonlinear \
+         (     System     ) <-------------------+
+          \             /                       |
+           '._       _.'                        |
+               ~-..-~                           |
+                  |                             |
+                  v                             |
+        +------------------+                    |
+        | Koopman Operator |                    |
+        | (lift to higher  |                    |
+        |   observables)   |                    |
+        +------------------+                    |
+                  |                             |
+                  v                             |
+        +------------------+                    |
+        |  Linear Dynamics |                    |
+        |in augmented space|                    |
+        +------------------+                    |
+                  |                             |
+                  v                             |
+              +--------+                        |
+              | Control|------------------------+
+              +--------+
+                                     ^
+                                     |
+                                 (feedback)
+```
+
 Consider a discrete-time nonlinear system:
 
 $$
